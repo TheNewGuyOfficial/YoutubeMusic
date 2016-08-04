@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.thenewguy.official.youtubemusic.MainActivity2"
-    tools:showIn="@layout/app_bar">
+    tools:context="com.thenewguy.official.youtubemusic.MainActivity"
+    tools:showIn="@layout/app_bar_main">
 
     <RelativeLayout
         android:layout_width="match_parent"

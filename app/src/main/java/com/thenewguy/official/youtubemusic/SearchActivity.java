@@ -24,8 +24,6 @@ import com.wefree.fynn.youtubemusic.R;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
-import java.util.Arrays;
-
 
 
 public class SearchActivity extends AppCompatActivity implements SearchView.OnQueryTextListener{
@@ -56,7 +54,7 @@ public class SearchActivity extends AppCompatActivity implements SearchView.OnQu
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(MainActivity2.listener);
+        navigationView.setNavigationItemSelectedListener(MainActivity.listener);
 
         searchBar = (SearchView) findViewById(R.id.search_bar);
         searchBar.setIconifiedByDefault(false);        searchBar.setOnQueryTextListener(this);
@@ -67,7 +65,7 @@ public class SearchActivity extends AppCompatActivity implements SearchView.OnQu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.start, menu);
+        getMenuInflater().inflate(R.menu.main_activity, menu);
         return true;
     }
 

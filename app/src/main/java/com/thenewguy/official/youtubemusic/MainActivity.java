@@ -21,7 +21,7 @@ import android.widget.LinearLayout;
 import com.thenewguy.official.youtubemusic.AppConstants.SearchType;
 import com.wefree.fynn.youtubemusic.R;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     public static NavigationViewListener listener;
     private Context mContext;
@@ -100,7 +100,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.start, menu);
+        getMenuInflater().inflate(R.menu.main_activity, menu);
         return true;
     }
 
