@@ -10,7 +10,7 @@ public class SearchItem {
     private final String channel;
     private final String image;
     private final String type;
-    private final String channelId;
+    private final String channelId; 
 
 
     public SearchItem(String itemId, String itemTitle, String itemChannel, String itemImage, String itemChannelId, String itemType) {
