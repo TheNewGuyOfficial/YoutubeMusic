@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="FlatTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <!--Bar at top-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--Notification Bar-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--Screen Background-->
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <!--TextColor-->
+        <item name="android:textColorPrimary">@android:color/primary_text_light</item>
+
+    </style>
+
+    <style name="FlatTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="FlatTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
